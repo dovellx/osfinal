@@ -1,0 +1,29 @@
+#include "stdio.h"
+#include "string.h"
+
+char payload[24] = {
+    0x11,0x22,0x33,0x44,
+    0x11,0x22,0x33,0x44,
+    0x11,0x22,0x33,0x44,
+    0x11,0x22,0x33,0x44,
+    0x11,0x22,0x33,0x44,
+    0x24,0x10,0x00,0x00
+};
+void stack(char * str)
+{
+    unsigned int canary = 0x01;
+    char buf[4];
+    strcpy(buf, payload);
+    return ;
+}
+void print()
+{
+    while(1)
+    printf("Stack overflow!\t");
+    return ;
+}
+int main(int argc, char *argv[])
+{
+    stack(payload);
+    return 0;
+}
