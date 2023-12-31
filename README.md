@@ -2,14 +2,16 @@
 
 武汉大学网安院操作系统实验期末大作业
 
+代码修改均在 chapter10/e 中
+
 我完成的部分：
 
-PartA命令添加(echo,cat)
+PartA 命令添加(echo,cat)
 
-PartA多任务执行
+PartA 多任务执行
 
-PartB可执行文件修改（shellcode文件夹，inject命令针对who进行修改）
+PartB 可执行文件修改（shellcode 文件夹，inject 命令针对 who 进行修改）
 
-PartB栈溢出
+PartB 栈溢出
 
-PartB动态度量&&canary检查栈溢出
+PartB 动态度量 && canary 检查栈溢出
